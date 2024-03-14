@@ -10,7 +10,7 @@ import org.springframework.kafka.annotation.KafkaListener;
 @Slf4j
 @RequiredArgsConstructor
 public class NotificationServiceApplication {
-
+//docker compose up -d
 
     public static void main(String[] args) {
         SpringApplication.run(NotificationServiceApplication.class, args);
